@@ -1,0 +1,28 @@
+{
+  "n_test": 9000,
+  "bad_rate": 0.1222,
+  "auc": 0.8022,
+  "gini": 0.6044,
+  "ks": 0.457,
+  "brier": 0.0897,
+  "information_value": {
+    "bureau_score": 0.8913,
+    "monthly_income": 0.0196,
+    "foir": 0.1795,
+    "employer_vintage_m": 0.056,
+    "enquiries_6m": 0.0807,
+    "dpd30_12m": 0.1127
+  },
+  "features_kept": [
+    "bureau_score",
+    "foir",
+    "employer_vintage_m",
+    "enquiries_6m",
+    "dpd30_12m"
+  ],
+  "score_range_test": [
+    424,
+    668
+  ],
+  "calibration_max_abs_gap": 0.0088
+}
